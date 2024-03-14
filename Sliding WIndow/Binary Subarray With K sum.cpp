@@ -1,3 +1,4 @@
+// Use the logic of finding all the subsets upto k and subtract the number of subsets for upto k-1 and you will get the number of subsets for exactly k
 int slidingwindow(vector<int>&num,int k){
         long long currentsum=0;
         int totalsize=0;
